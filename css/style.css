@@ -1,0 +1,80 @@
+/* розташування хедерів */
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;               
+    justify-content: space-between; 
+    align-items: left;         
+    padding: 15px 30px;
+}
+
+/* Лого і назва */
+.logo {
+    display: flex;
+    align-items: left;
+    gap: 10px; /* лого хедер відступ */
+}
+
+.logo img {
+    width: 80px; /* розмір лого */
+    height: auto;
+}
+
+/* хедер*/
+header {
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* меню */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* розділи по центру */
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* опис послуг */
+.service-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* команда */
+.team-member {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* футер по центру */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f2f2f2;
+}
